@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2e7e6;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("Amazonlogo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.del{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.con{
+     font-size: 1rem;
+     margin-left: 3px;
+}
+.loc-icon{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.s-icon{
+    width: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: rgb(234, 185, 7);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.sel{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.inp{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.inp:hover{
+    border: 1px solid orange;
+}
+.lan{
+    height: 30px;
+    width: 60px;
+
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.upp-sign{
+    font-size: 0.8rem;
+}
+.low-sign{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.c-icon i{
+     font-size: 30px;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.opt p{
+    display: inline;
+    margin-left: 15px;
+}
+.opt{
+    width: 70%;
+    font-size: 0.9rem;
+}
+.deal{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.picture{  
+     height: 400px;
+    background-image: url("fontimage.jpg");
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.text{
+    height: 40px;
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+
+.box1{
+    height: 80%;
+    background-image: url("box1product1.jpg");
+    background-size: cover;
+}
+.box2{
+    height: 80%;
+    background-image: url("box2product.jpg");
+    background-size: cover;
+}
+.box3{
+    height: 80%;
+    background-image: url("box3product.jpg") ;
+    background-size: cover;
+}
+.box4{
+    height: 80%;
+    background-image: url("box4product.jpg");
+    background-size: cover;
+}
+.box5{
+    height: 80%;
+    background-image: url("box5image.jpg");
+    background-size: cover;
+}
+.box6{
+    height: 80%;
+    background-image: url("box6image.jpg");
+    background-size: cover;
+}
+.box7{
+    height: 80%;
+    background-image: url("box7image.jpg") ;
+    background-size: cover;
+}
+.box8{
+    height: 80%;
+    background-image: url("box8image.jpg");
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    bottom: 15px;
+}
+.swip{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #e2e7e6;
+    margin: 25px 17px;
+}
+.b{
+    height: 200px;
+    width: calc(100% / 8 - 7px);
+    background-color: white;
+}
+.img1{
+    height: 100%;
+    background-image: url("image1.jpg");
+    background-size: cover;
+}
+.img2{
+    height: 100%;
+    background-image: url("image2.jpg");
+    background-size: cover;
+}
+.img3{
+    height: 100%;
+    background-image: url("image3.jpg");
+    background-size: cover;
+}
+.img4{
+    height: 100%;
+    background-image: url("image4.jpg");
+    background-size: cover;
+}
+.img5{
+    height: 100%;
+    background-image: url("image5.jpg");
+    background-size: cover;
+}
+.img6{
+    height: 100%;
+    background-image: url("image6.jpg");
+    background-size: cover;
+}
+.img7{
+    height: 100%;
+    background-image: url("image7.jpg");
+    background-size: cover;
+}
+.img8{
+    height: 100%;
+    background-image: url("image8.jpg");
+    background-size: cover;
+}
+
